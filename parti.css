@@ -1,0 +1,166 @@
+.bg-yellow{
+    background-color: #FFFBA4;
+    box-shadow: 0px 6px 8px 1px #A2D6EC;
+}
+
+body{
+    background-color: #D3F6FF;
+}
+
+.nav-item{
+    font-size: 24px;
+    margin-right: 25px;
+    font-weight: bold;
+    
+
+}
+
+
+.bg-blue{
+    background-color: #BAEAFF;
+    min-height: 900px;
+    margin-top: -40px;
+    border-radius: 40px;
+    box-shadow: 0px 6px 8px 1px #A2D6EC;
+  
+
+}
+
+.navbar
+
+.bg-darkyellow{
+    background-color: #FFC700;
+    color: #FFFBA4;
+
+}
+
+.div-size-heigh{
+    height: 200px;
+   
+    
+   
+
+}
+
+
+
+
+.bg-darkblue{
+    background-color: #0094FF;
+    height: 90px;
+    max-width: 373px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+   
+
+}
+
+.responsive{
+    height: 350px ;
+    width: 290px;
+    margin: 20px;
+    margin-top: 60px;
+    margin-left: 25px;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+
+
+
+.carousel-control-prev{
+    height: 50px;
+    width: 50px;
+    margin-top: 430px;
+    margin-left: -40px;
+    color: #FFFBA4;
+    background-color: #FFC700;
+    border-radius: 50px;
+    
+    
+}
+
+.carousel-control-next{
+    height: 50px;
+    width: 50px;
+    margin-top: 430px;
+    margin-right: -40px;
+    color: #FFFBA4;
+    background-color: #FFC700;
+    border-radius: 50px;
+    
+    
+}
+
+
+
+
+
+
+
+h1{
+    font-size: 24px;
+    color: black;
+}
+
+.overlay {
+    position: relative; 
+    display: block;
+    bottom: 0; 
+    border-radius: 40px;
+    background: #FFC700;
+    background: #FFC700; /* Black see-through */
+    color: #f1f1f1; 
+    width: 292px;
+    height: 150px;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: -170px;
+    text-align: center;
+  }
+  
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+
+
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 40px;
+  }
+  
+  
+  li a:hover:not(.active) {
+    background-color: #FFC700;
+    border-radius: 40px;
+    color: #FFFBA4;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+
+
+  

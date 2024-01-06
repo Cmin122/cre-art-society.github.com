@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #aboutLink.active-page {
+            border: 1px solid;
+            border-radius: 25px; 
+            padding: 5px 10px; 
+            background-color: #FFC700;
+            color: white;
+        }
+        
+            .navbar-nav li:not(#aboutLink).active-page {
+        color: black; 
+    }
+
+        .column1, .column2, .column3 {
+            width: 30%; 
+            padding: 15px;
+            color: black;
+        }
+
+        label {
+            margin-left: 35%;
+            margin-top: 3%;
+            color: black;
+            font-weight: bold;
+        }
+
+        .column2 label, .column3 label {
+            margin-left: 35%;
+            margin-top: 3%;
+            color: black;
+            font-weight: bold;
+        }
+
+        .column2 label,
+        .column3 label,
+        .column4 label {
+            width: 80%; 
+            margin-left: 100px; 
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Image/Logo.png" width="90px" style="border-radius: 60%;"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parti.html">Participants</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="ourproject.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our project
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                            <li><a class="dropdown-item" href="#">Video Production</a></li>
+                            <li><a class="dropdown-item" href="#">Animation</a></li>
+                            <li><a class="dropdown-item" href="ourproject.html">Motion Graphic</a></li>
+                            <li><a class="dropdown-item" href="#">Illustration</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Event page 1.html">Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="aboutLink" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var path = window.location.pathname.split("/").pop();
+            if (path === 'about.html') {
+                $('#aboutLink').addClass('active-page');
+            }
+        });
+    </script>
+
+    <div class="Theme">
+        <h1>THEME</h1>
+    </div>
+    <div class="Content1">
+        <h2>
+            <b>HEY THERE!</b> Get ready for an exciting journey through the incredible minds of our <br>
+            <b>Creative Multimedia Design</b> students with our theme, <b>"Wanderlust of Creativity."</b><br>
+            This isn't your typical showcase. It's a friendly invitation to dive into the enchanting<br>
+            universe where imagination knows no bounds. Join us as we unveil the magic behind <br>
+            multimedia design and celebrate the amazing talents of our budding creatives.
+        </h2>
+    </div>
+    <div class="Team">
+        <h1>OUR TEAM</h1>
+    </div>
+    
+    <div class="border1">
+        <div class="wrapper">
+            <div class="row">
+                <div class="column1">
+                    <img src="Image/person0.png" style="width: 300px;height: 350px;"><br>
+                    <label>Bird Doctor</label>
+                </div>
+                <div class="column2">
+                    <img src="Image/Image_20240105190740.jpg" style="width: 300px;height: 350px; border-radius: 40px;">
+                    <label>Yong toufu</label>
+                </div>
+                <div class="column3">
+                    <img src="Image/Image_20240105190747.jpg" style="width: 300px;height: 350px;border-radius: 40px;">
+                    <label>Xiu QuanLeong</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper1">
+
+       
+          <div class="row1">
+  
+              <div class="column3">
+                  <img  src="Image/Image_20240105190742.jpg" style="width: 300px;height: 350px;border-radius: 40px;" >
+                  <label>Goh Katak</label>
+              </div>
+          
+  
+                <div class="column4">
+                    <img src="Image/Image_20240105190744.jpg" style="width: 300px;height: 350px;border-radius: 40px;">
+                    <label>Kah hinhin</label>
+                  
+                </div>
+             
+          </div>
+      </div>
+
+   </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* Background Colour Start */
+
+body{
+    background-color: #BAEAFF;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-blue {
+    background-color:blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-bisque {
+    background-color: bisque;
+}
+
+.bg-brown {
+    background-color: brown;
+}
+
+.bg-gold {
+    background-color: gold;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-blueviolet {
+    background-color: blueviolet;
+}
+
+.bg-wheat {
+    background-color: wheat;
+}
+
+
+
+/* Background Colour End */
+
+.div-size-height {
+    height : 240px
+}
+
+.img-cre-art2023{
+    width: 150px;
+    height: 200px;
+}
+
+
+.whenMobileGone{
+    display: none;
+}
+
+@media (min-width:10px){
+    .whenMobileGone {
+        display: none;
+    }
+}
+
+@media (min-width:1200px){
+    .whenMobileGone {
+        display: block;
+    }
+}
+
+
+
+.whenDesktopGone{
+    display: none;
+}
+
+@media (min-width:10px){
+    .whenDesktopGone {
+        display: block;
+    }
+}
+
+@media (min-width:1200px){
+    .whenDesktopGone {
+        display: none;
+    }
+}
+
+
+
+
+/* box styles start */
+
+.bg-gold{
+    background-color:gold;
+}
+
+.bg-green{
+    background-color:green;
+}
+
+.bg-purple{
+    background-color:purple;
+}
+
+.bg-red{
+    background-color:red;
+}
+
+.bg-blue {
+    background-color: #D3F6FF;
+}
+
+.bg-darkblue {
+    background-color: #0094FF;
+}
+
+.bg-gold{
+    background-color:gold;
+}
+
+.bg-green{
+    background-color:green;
+}
+
+.bg-purple{
+    background-color:purple;
+}
+
+.bg-yellow {
+    background-color: #FFFBA4;
+}
+
+.bg-darkyellow {
+    background-color: #FFC700;
+}
+
